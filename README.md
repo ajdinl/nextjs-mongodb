@@ -1,4 +1,4 @@
-## NextJS app with MongoDB connection and basic CRUD operations
+## NextJS Templates app with MongoDB connection and basic CRUD operations
 
 First clone this repo ( type in terminal 'git clone git@github.com:ajdinl/nextjs-mongodb.git'), then install all dependencies with 'npm install'.\
 When installation is finished go to https://www.mongodb.com/ and create account if you dont have, and then create cluster, database and collection.\
