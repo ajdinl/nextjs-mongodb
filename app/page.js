@@ -1,4 +1,4 @@
-import TemplatesList from './templates/templates-list'
+import Templates from './templates/templates'
 
 async function getData() {
   const res = await fetch('http://localhost:3000/api/templates', {
@@ -20,9 +20,9 @@ export default async function Home() {
   }
 
   return (
-    <main className='flex min-h-screen flex-col items-center justify-center p-24'>
+    <main className='flex min-h-screen flex-col items-center justify-center'>
       <div>
-        <TemplatesList data={data} />
+        <Templates data={data} />
       </div>
     </main>
   )
